@@ -9,7 +9,7 @@
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{{\thesection.\Roman{subsection}}} %tidies up section stuff
 \usepackage{multicol}
-
+\usepackage[table]{xcolor}
 \def\labelitemi{--}
 
 \usepackage[none]{hyphenat} %removes hyphenation at end of lines
@@ -35,26 +35,33 @@
 \date{\vspace{-1.5cm}}
 
 \begin{document}
+
 \maketitle
+
 \thispagestyle{fancy}
+
 \section{Education}
 	\subsection{The High School of Glasgow (2009--2016)}
 	\begin{table}[htbp]
 		\centering
-			\caption{SQA Exam Results from August 2014, 2015, and 2016 progressively}
-	    	\begin{tabular}{|c|c|c|c|c|c|c|c|}
-		    \multicolumn{4}{|c|}{National 5} & \multicolumn{2}{c|}{Higher} & \multicolumn{2}{c|}{Advanced Higher} \\
-		    Subject & Grade & Subject & Grade & Subject & Grade & Subject & Grade \\
+		\caption{SQA Exam Results from August 2014, 2015, and 2016 progressively}
+    	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+		    \rowcolor{lightgray} \multicolumn{4}{|c|}{National 5} & \multicolumn{2}{c|}{Higher} & \multicolumn{2}{c|}{Advanced Higher} \\
+			\hline
+		    \rowcolor{lightgray} Subject & Grade & Subject & Grade & Subject & Grade & Subject & Grade \\
 			\hline
 		    English & A & Chemistry & A & English & A & English & A \\
 		   	Maths & A & Physics & A & Maths & A & Maths & A \\
 		    Spanish & A & Biology & A & Chemistry & A & Chemistry & A \\
 		    German & A & Economics & C & Physics & A & Physics & A \\
 		          &       &       &       & Biology & A     &       &  \\
-			\end{tabular}%
+			\hline
+		\end{tabular}%
 	\end{table}%
 	\subsection{Durham University (2016--present)}
 	I am currently at the University of Durham studying physics (MPhys F301) in my first year.
+
 \section{Key Achievements}
 \begin{itemize}
 	\item 2016: Trained in British Red Cross Emergency First Aid and ITC Outdoor First Aid
@@ -66,18 +73,24 @@
 		\item 2016: Company President
 	\end{itemize}
 \end{itemize}
+
 \section{Work Experience}
 	\subsection{Employment}
 	\begin{itemize}
-		\item Oct 2016 to present: Librarian at St Mary{\textquotesingle}s College Library
-		\begin{itemize}
-			\item This requires the processing of new and old books, stacking shelves, and taking out and returning books for other students. Keeping the library and the store room tidy are important, as well as ensuring there are no issues with any room associated with the library to allow students to have all the resources they require with no problems.
-		\end{itemize}
 		\item May to September 2016: Employee at Alchemy Drinks Ltd
 		\begin{itemize}
 			\item Delivering beer and other alcohols to pubs, restaurants, and hotels as second man in the van. I was responsible for handling money at deliveries and keeping all deliveries secure for transit. Gained experience dealing with a diverse group of customers and learned how to negotiate tense situations involving people under the influence of alcohol.
 		\end{itemize}
+		\item March 2017 to present: Bar staff at The Canalside Pub \& Grill
+		\begin{itemize}
+			\item General barkeeping duties throughout the night including serving food to and making drinks for customers, maintaining order with lively crowds, and ensuring a constant stock level behind the bar as well as changing beer kegs when needed. This job has taught how to deal with all types of people, both when drunk and sober, as well as how to cope under a lot of pressure with busy crowds of people all wanting served while keeping track of the environment for any other issues or situations. Gained an understanding of the struggles of the service industry and how to balance stock-keeping, bar maintenence, till upkeep, and service.
+		\end{itemize}
+		\item Oct 2016 to present: Librarian at St Mary's College Library
+		\begin{itemize}
+			\item This requires the processing of new and old books, stacking shelves, and taking out and returning books for other students. Keeping the library and the store room tidy are important, as well as ensuring there are no issues with any room associated with the library to allow students to have all the resources they require with no problems.
+		\end{itemize}
 	\end{itemize}
+
 	\subsection{Volunteering}
 	\begin{itemize}
 		\item July 2014 to May 2016: Volunteer Sales Assistant at Oxfam Stirling
@@ -89,6 +102,7 @@
 			\item Leader at the Sunday School for primary school children. Worked with the team of volunteers preparing and teaching classes to ensure the children are entertained and engaged.
 		\end{itemize}
 	\end{itemize}
+
 \section{Positions of Responsibility}
 \begin{itemize}
 	\item October 2016 to present: Member of the college welfare committee, known as WAM (Welfare at Mary\textquotesingle s)
@@ -104,32 +118,36 @@
 		\item Carrying out various duties to assist with the smooth running of the school and liaising with the School Senior Management Team.
 	\end{itemize}
 \end{itemize}
+
 \section{Core Skills}
 \begin{itemize}
 	\item As a physics student, I have a strong numerical ability and am comfortable performing calculations and solving problems in all situations.
 	\item I am comfortable learning new tasks and will happily apply myself to any job or environment in which I find myself.
 	\item I enjoy meeting new people and dealing with customers of all ages and types.
 \end{itemize}
-	\subsection{IT Skills}
+
+\section{IT Skills}
+\begin{itemize}
+	\item Microsoft Office
 	\begin{itemize}
-		\item Microsoft Office
-		\begin{itemize}
-			\item I have a lot of experience working with the Microsoft Office packages, and feel competent to perform most tasks in \textit{Word, Excel, and Powerpoint}.
-		\end{itemize}
-		\item Programming
-		\begin{itemize}
-			\item Python: Through my university course, I have gained some knowledge in programming in Python and feel confident in using this for writing simple packages if required, especially surrounding mapping out physical processes and generating graphs.
-			\item \LaTeX: I have spent some time teaching myself how to the use the word processor \LaTeX, and feel confident in using this to generate and format more complicated documents into specific formats required.
-		\end{itemize}
+		\item I have a lot of experience working with the Microsoft Office packages, and feel competent to perform most tasks in \textit{Word, Excel, and Powerpoint}.
 	\end{itemize}
+	\item Programming
+	\begin{itemize}
+		\item Python: Through my university course, I have gained some knowledge in programming in Python and feel confident in using this for writing simple packages if required, especially surrounding mapping out physical processes and generating graphs.
+		\item \LaTeX: I have spent some time teaching myself how to the use the word processing software \LaTeX, and feel confident in using this to generate and format more complicated documents into specific designs required.
+	\end{itemize}
+\end{itemize}
+
+\newpage
 \section{References}
-	\begin{multicols*}{2}
+	\begin{multicols}{3}
 		\begin{itemize}
 			\item Mr K. Robertson \\ Deputy Rector \\ The High School of Glasgow \\ 637, Crow Road	\\ Anniesland, Glasgow	\\ G13 1PL \\ 0141 954 9628	\\ kjar@hsog.co.uk
 			\item Mrs C Gray \\ Shop Manager \\ Oxfam Bookshop \\ 79, Murray Place \\ Stirling \\ FK8 1AU \\ 01786 462380 \\ oxfamshopf6206@oxfam.org.uk
 			\item Mr T McMillan \\ Director \\ Alchemy Inns Ltd \\ 28, Abbotsinch Road \\ Grangemouth, Scotland \\ FK3 9UX \\ 01324 622290 \\tommy@alchemyinns.co.uk
 		\end{itemize}
-	\end{multicols*}
+	\end{multicols}
 \end{document}
 
 % \usepackage{times}
