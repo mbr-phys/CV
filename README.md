@@ -1,3 +1,4 @@
-# CV  
-Curriculum Vitae for Matthew Rossetter  
+### CV  
+My Curriculum Vitae  
+
 _PDF file with LaTeX source file present_
