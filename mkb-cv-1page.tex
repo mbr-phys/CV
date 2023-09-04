@@ -1,0 +1,327 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Freeman Curriculum Vitae
+% XeLaTeX Template
+% Version 2.0 (19/3/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%!TEX program = xelatex
+% NOTICE: This template must be compiled with XeLaTeX, the line above should
+% ensure this happens automatically but if it doesn't you will need to specify
+% XeLaTeX as the engine in your editor or script
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+
+\input{structure.tex} % Include the file that specifies the document structure
+
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example right footer:
+\rfoot{\color{headings}{\sffamily Last update: \today.}}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{pifont}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{paracol}{2} % Begin the multi-column environment
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CURRICULUM VITAE TEXT
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the author name and CV text; fixed height to match the coloured box to the right, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\centering % Centre text
+	{\sffamily\Huge Matthew Black}\\\medskip % Your name
+	{\Huge\color{headings}\cvtextfont Curriculum Vitae}
+}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% Blank \educationentry{} command to add another degree:
+
+%\educationentry{} % Duration
+%{} % Degree
+%{} % Honours, achievements or distinctions (e.g. first class honours)
+%{} % Department
+%{} % Institution
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\begin{supertabular}{rp{6.7cm}} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\educationentry{2016 -- 2020} % Duration
+	{Master of Physics} % Degree
+    {First Class Honours}
+%    {Statement of Marks:\setlist{nolistsep}
+%        \begin{itemize}[noitemsep]
+%            \item Fourth Year - 1st (78\%)
+%        \item Third Year - 2:1 (69\%)
+%        \item Second Year - 1st (77\%)
+%        \item First Year - 1st (72\%)
+%    \end{itemize}\vspace{-10pt}} % Honours, achievements or distinctions (e.g. first class honours)
+	{Theoretical Physics} % Department
+	{University of Durham} % Institution
+
+	%------------------------------------------------
+
+	\educationentry{2009 -- 2016} % Duration
+	{Secondary Education} % Degree
+	{} % Honours, achievements or distinctions (e.g. first class honours)
+    {\vspace{-5pt}\setlist{nolistsep}
+     \begin{itemize}[noitemsep]
+        \item Advanced Highers - A in Physics, Maths, Chemistry, and English
+        \item Highers - A in Physics, Chemistry, Biology, Maths, and English
+%        \item National $5$s - $7$ As and $1$ C, including Maths, Physics, and English at A
+     \end{itemize}\vspace{-10pt}} % Department
+     {The High School of Glasgow} % Institution
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+
+%----------------------------------------------------------------------------------------
+%	MAJOR RESEARCH PROJECT
+%----------------------------------------------------------------------------------------
+
+%\section{Masters Thesis}
+%
+%{\raggedright\textbf{``CP Violation In and Beyond The Standard Model: Two Higgs Doublet Model Type II Contributions to Flavour Observables"}\\\medskip}
+%
+%The Standard Model of particle physics is one of the great achievements of the 20$^{\text{th}}$ century. 
+%This describes the fundamental interactions of particles and successfully unifies all observed forces of nature apart from gravity. 
+%However, there are still many things that cannot be explained by the Standard Model, such as how the conditions of the early universe after the Big Bang lead to our current universe existing. 
+%These questions require adapting and adding to the Standard Model to find answers which are also consistent with the rest of physics.
+%This thesis studies a well-known extension of the Standard Model called the Two Higgs Doublet Model (2HDM), where four new Higgs bosons are introduced in addition to the famous particle found in 2012.
+%This model has the potential to explain several of the problems of the Standard Model in the early universe, but is dependent on the specific values of the parameters of the 2HDM. 
+%The 2HDM was used to modify the predictions of many important processes for many different values of two important parameters, and the new predictions were compared to experimental values for each process. 
+%Upper and lower bounds on the values of the parameters of the 2HDM were then found, along with the statistical significance of these values. 
+%These bounds inform us where we could confirm this model in experiment and still be consistent with other experiments.
+%\\\\
+%We first cover the theory of the Standard Model and then test the 2HDM of Type II as an extension to the Standard Model using indicative flavour observables, such as leptonic and semileptonic decays of $B$ and $D$ mesons, $B\bar{B}$ mixing, and the $b\to s\gamma$ radiative decay.
+%Testing the 2HDM parameter space ($m_{H^+},\tan\beta$) to find alignment between theoretical calculations and experiment, constraints on the parameters were found for flavour phenomena to work towards a global fit.
+%%We perform this fit in both the alignment and wrong sign limits of the 2HDM.
+%Strongly dominated by the $b\to s\gamma$ branching ratio, the mass of a charged Higgs particle would be expected to have a minimum value at 95\% CL of $490$ GeV.% in the alignment limit and $740$ GeV in the wrong sign limit.
+%The value of $\tan\beta$ is limited by $B_q\to\mu^+\mu^-$ decays, yielding a maximum value at 95\% CL of $20.8$.% in the alignment limit and $4.03$ in the wrong sign, for the fixed choices of other parameters.
+%This work was then joined with constraints from the oblique parameters $S,T,U$ from another work, to better give judgement on the state of the 2HDM fit.
+%The results of this combined fit are no more conclusive than flavour alone, due to additional parameter dependency in $S,T,U$; the only additional constraint we definitively find here is that $m_{H^+}\approx m_{H^0}\approx m_{A^0}$ in both the alignment and wrong sign limits.
+%The validity of this fit is heavily influenced by the semileptonic ratio $\mathcal{R}(D^*)$ which remains in disagreement with the 2HDM fit to $3\sigma$; the statistical fit of these observables points to exclusion of this model at 95\% CL in the wrong sign limit, and 85\% CL in the alignment limit, at $2\sigma$ error significance.
+%This model cannot be excluded at $3\sigma$ error significance, where $\mathcal{R}(D^*)$ no longer causes disagreement in the fit.
+
+%\medskip % Extra whitespace before the next section
+
+%------------------------------------------------
+
+%\vspace{-\baselineskip}\medskip % Standardise the whitespace after this section and before the next (the custom command adds too much otherwise)
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Positions}
+
+% Blank \workposition command to add another job:
+
+%\workposition{} % Duration
+%{} % FT/PT (full time or part time)
+%{} % Employer
+%{} % Job title
+%{} % Description
+
+% All 5 parameters must be supplied but any can be empty if you don't need them
+
+%------------------------------------------------
+
+\workposition{March 2021 -- present}
+{FT}
+{Universit\"{a}t Siegen}
+{PhD Student}
+{I am currently working as a PhD student in the TP1 research group for particle physics at Universit\"{a}t Siegen, focusing on lattice simulations of QCD. This role involves participating in research projects requiring strong dedication and focus. I work with others both within the TP1 group and internationally to complete research, and also as part of larger collaborations focused on delivering high precision lattice results. Further research interests include new physics models and quantum computation for high energy physics.}
+
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Research Works}
+See \href{https://inspirehep.net/authors/1886894?ui-citation-summary=true}{iNSPIRE-HEP/Matthew Black}.\\[8pt]
+\longformpublication{\ding{229}\, O.~Atkinson, {\bf M.~Black}, A.~Lenz, A.~Rusov and J.~Wynne, {\it Cornering the Two Higgs Doublet Model Type II}, JHEP 04 (2022) 172, \\ \phantom{i} [\href{https://arxiv.org/abs/2107.05650}{arXiv:2107.05650 [hep-ph]}]} \\[5pt]
+\longformpublication{\ding{229}\, O.~Atkinson, {\bf M.~Black}, C.~Englert, A.~Lenz, A.~Rusov and J.~Wynne, {\it The Flavourful Present and Future of 2HDMs at the Collider Energy Frontier}, JHEP 11 (2022) 139, [\href{https://arxiv.org/abs/2202.08807}{arXiv:2202.08807 [hep-ph]}]} \\[5pt]
+\longformpublication{\ding{229}\, O.~Atkinson, {\bf M.~Black}, C.~Englert, A.~Lenz and A.~Rusov, {\it MUonE, muon $g-2$ and electroweak precision constraints within 2HDMs}, \\ Phys.Rev.D 106 (2022) 11 115031, [\href{https://arxiv.org/abs/2207.02789}{arXiv:2207.02789 [hep-ph]}]}\\[5pt]
+\longformpublication{\ding{229}\, {\bf M.~Black}, A.~D.~Plascencia and G.~Tetlalmatzi-Xolocotzi, {\it Enhancing $B_s \to e^+ e^-$ to an Observable Level in the Two-Higgs-Doublet Model}, Phys.Rev.D 107 (2023) 3 035013, [\href{https://arxiv.org/abs/2208.08995}{arXiv:2208.08995 [hep-ph]}]}.
+\longformpublication{\ding{229}\, {\bf M.~Black}, O. Witzel, {\it $B$ Meson Decay Constants Using Relativistic Heavy Quarks}, PoS LATTICE2022 405, [\href{https://arxiv.org/abs/2212.10125}{arXiv:2212.10125 [hep-lat]}]}.
+
+\switchcolumn % Switch to the next paracol column
+
+%----------------------------------------------------------------------------------------
+%	COLOURED CONTACT DETAILS BOX
+%----------------------------------------------------------------------------------------
+
+\parbox[top][0.12\textheight][c]{\linewidth}{ % Parbox to hold the colour box; fixed height to match the name/CV text to the left, centred vertically and full line width
+	\vspace{-0.04\textheight} % Reduce whitespace above the parbox to separate it from the main content
+	\colorbox{shade}{ % Create the coloured box
+		\begin{supertabular}{p{0.05\linewidth}|p{0.795\linewidth}} % Start a table with two columns, the table will ensure everything is aligned
+			%\raisebox{-1pt}{\faHome} & Easter Banknock, Denny, FK6 5NA \\ % Address
+			%\raisebox{-1pt}{\faPhone} & +44 7446 949025, DoB: 26/10/1998 \\ % Phone number
+            \raisebox{-1pt}{\faHome} & K\"{o}lner Str. 17, 57072 Siegen, Germany \\ % Address
+			\raisebox{-1pt}{\faPhone} & +49 173 9173782, DoB: 26/10/1998 \\ % Phone number
+            \raisebox{0pt}{\small\faEnvelope} & \raisebox{0pt}{\color{linkcolor}Matthew.Black@uni-siegen.de}\\%, \\ % Email address\href{mailto:Matthew.Black@uni-siegen.de}{Matthew.Black@uni-siegen.de}\\%, \\ % Email address 
+            \raisebox{0pt}{\faGithub} & \raisebox{0pt}{\color{linkcolor}https://github.com/mbr-phys}\\ % GitHub profile\href{https://github.com/mbr-phys}{https://github.com/mbr-phys} \\ % GitHub profile
+			%\raisebox{-1pt}{\small\faDesktop} & \href{https://www.LaTeXTemplates.com}{https://www.LaTeXTemplates.com} \\ % Website
+			% See fontawesome.pdf in the fonts folder for all icons you can use
+		\end{supertabular}
+	}
+}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+%    \tableentry{Beginner}{HTML, Fortran}{spaceafter}
+
+	%------------------------------------------------
+
+    \tableentry{Intermediate}{Fortran, Perl, HTML}{spaceafter}
+
+	%------------------------------------------------
+
+	\tableentry{Expert}{Python, C++, Unix, \LaTeX}{spaceafter}
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{References}
+
+%\textit{References available on request}
+
+%------------------------------------------------
+
+% Example \tableentry{} command to add another line:
+
+%\tableentry{Heading}{Content}{spaceafter}
+
+% All 3 parameters must be supplied but any can be empty if you don't need them
+% A "spaceafter" value in the third parameter will add some vertical space -- this is to be used between headings
+
+%------------------------------------------------
+
+\begin{supertabular}{rl} % Start a table with two columns, the table will ensure everything is aligned
+
+	%------------------------------------------------
+
+	\tableentry{}{\textbf{Dr. Alexander Lenz}}{spaceafter}
+	\tableentry{Position}{Chair, Professor}{}
+    %\tableentry{Employer}{\href{https://www.physik.uni-siegen.de/tp1/index.html}{\textit{Theoretical Particle Physics Group}}}{}
+    %\tableentry{}{\href{https://www.uni-siegen.de/start/}{\textit{Universit\"{a}t Siegen}}}{spaceafter}
+	%\tableentry{Email}{\href{mailto:Alexander.Lenz@uni-siegen.de}{Alexander.Lenz@uni-siegen.de}}{}
+    \tableentry{Group}{{\color{linkcolor}\textit{Theoretical Particle Physics Group}}}{}
+    \tableentry{}{{\color{linkcolor}\textit{Universit\"{a}t Siegen}}}{spaceafter}
+    \tableentry{Email}{{\color{linkcolor}Alexander.Lenz@uni-siegen.de}}{}
+    \tableentry{Phone}{+49 (0)271/740-3890}{}
+
+    %------------------------------------------------
+
+	\tableentry{}{}{} % Creates some additional whitespace between the references
+
+	%------------------------------------------------
+
+    \tableentry{}{\textbf{Dr. Oliver Witzel}}{spaceafter}
+    \tableentry{Position}{Akademischer Rat}{}
+    %\tableentry{Employer}{\href{https://www.physik.uni-siegen.de/tp1/index.html}{\textit{Theoretical Particle Physics Group}}}{}
+    %\tableentry{}{\href{https://www.uni-siegen.de/start/}{\textit{Universit\"{a}t Siegen}}}{spaceafter}
+	%\tableentry{Email}{\href{mailto:Oliver.Witzel@uni-siegen.de}{Oliver.Witzel@uni-siegen.de}}{}
+    \tableentry{Group}{{\color{linkcolor}\textit{Theoretical Particle Physics Group}}}{}
+    \tableentry{}{{\color{linkcolor}\textit{Universit\"{a}t Siegen}}}{spaceafter}
+	\tableentry{Email}{{\color{linkcolor}Oliver.Witzel@uni-siegen.de}}{}
+    \tableentry{Phone}{+49 (0)271/740-3703}{}
+
+    %------------------------------------------------
+
+	\tableentry{}{}{} % Creates some additional whitespace between the references
+
+	%------------------------------------------------
+
+%    \tableentry{}{\textbf{Dr. Qing (Helen) He}}{spaceafter}
+%    \tableentry{Position}{Assistant Professor}{}
+%    %\tableentry{Employer}{\href{https://www.dur.ac.uk/cmp}{\textit{Centre for Materials Physics}}}{}
+%    %\tableentry{}{\href{https://www.dur.ac.uk}{\textit{University of Durham}}}{spaceafter}
+%	%\tableentry{Email}{\href{mailto:qing.he@durham.ac.uk}{qing.he@durham.ac.uk}}{}
+%    \tableentry{Employer}{{\color{linkcolor}\textit{Centre for Materials Physics}}}{}
+%    \tableentry{}{{\color{linkcolor}\textit{University of Durham}}}{spaceafter}
+%	\tableentry{Email}{{\color{linkcolor}qing.he@durham.ac.uk}}{}
+%    \tableentry{Phone}{+44 (0)191 3343812}{}
+
+	%------------------------------------------------
+
+%	\tableentry{}{}{} % Creates some additional whitespace between the references
+%
+%	%------------------------------------------------
+%	\tableentry{}{\textbf{Mustafa Gun}}{spaceafter}
+%	\tableentry{Position}{Food and Beverages Services Manager}{}
+%    \tableentry{Employer}{\textit{St Mary's College}}{}
+%	\tableentry{}{\href{https://www.dur.ac.uk}{\textit{University of Durham}}}{spaceafter}
+%    \tableentry{Email}{\href{mailto:mustafa.gun@durham.ac.uk}{mustafa.gun@durham.ac.uk}}{}
+%    \tableentry{Phone}{+44 (0)191 3345920}{}
+%	\tableentry{Mobile}{+1 (232) 842-3583}{}
+
+
+	%------------------------------------------------
+
+\end{supertabular}
+
+
+
+\end{paracol}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
