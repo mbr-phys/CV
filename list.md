@@ -1,5 +1,18 @@
 # Master List of Everything I've Ever Done
 
+### Education
+
+##### Further Education
+
+- [2024] PhD, Universitaet Siegen - Theoretical Particle Physics
+- [2020] Master of Physics (MPhys), Durham University - Theoretical Physics, First Class Honours
+
+##### Secondary Education - High School of Glasgow
+
+- [2016] Advanced Highers - 4 As (Physics, Maths, Chemistry, English)
+- [2015] Highers - 5 As (Physics, Chemistry, Biology, Maths, English)
+- [2014] National 5s - 7 As (incl. Maths, Physics, English) and 1 C (Economics)
+
 ### Jobs
 
 - [03/2021-] Doctoral Reseacher at University of Siegen
@@ -13,6 +26,29 @@
 
 - [10/2017-03/2020] Bar Star at St Mary's College Bar, Durham University
   -> I am responsible for serving and interacting with customers. This requires developing keen social skills to balance a friendly atmosphere for customers with a presence of authority to those who may trouble in a high-energy, intoxicated environment. It is important to maintain a high level of cleanliness in a frequently messy environment, and keep a mind for potential welfare issues such as binge drinking which must be monitored and reported.
+
+### Publications
+
+- https://inspirehep.net/authors/1886894?ui-citation-summary=true iNSPIRE-HEP/Matthew Black
+
+-> M. Black, R. Harlander, F. Lange, A. Rago, A. Shindler and O. Witzel 
+  - Using Gradient Flow to Renormalise Matrix Elements for Meson Mixing and Lifetimes
+  - PoS LATTICE2023 263, https://arxiv.org/abs/2310.XXXX, arXiv:2310.XXXX [hep-lat]
+-> M. Black, O. Witzel 
+  - $B$ Meson Decay Constants Using Relativistic Heavy Quarks
+  - PoS LATTICE2022 405, https://arxiv.org/abs/2212.10125, arXiv:2212.10125 [hep-lat]
+-> M. Black, A. D. Plascencia and G. Tetlalmatzi-Xolocotzi
+  - Enhancing $B_s \to e^+ e^-$ to an Observable Level in the Two-Higgs-Doublet Model
+  - Phys.Rev.D 107 (2023) 3 035013, https://arxiv.org/abs/2208.08995, arXiv:2208.08995 [hep-ph]
+-> O. Atkinson, M. Black, C. Englert, A. Lenz and A. Rusov
+  - MUonE, muon $g-2$ and electroweak precision constraints within 2HDMs
+  - Phys.Rev.D 106 (2022) 11 115031, https://arxiv.org/abs/2207.02789, arXiv:2207.02789 [hep-ph]
+-> O. Atkinson, M. Black, C. Englert, A. Lenz, A. Rusov and J. Wynne
+  - The Flavourful Present and Future of 2HDMs at the Collider Energy Frontier
+  - JHEP 11 (2022) 139, https://arxiv.org/abs/2202.08807, arXiv:2202.08807 [hep-ph]
+-> O. Atkinson, M. Black, A. Lenz, A. Rusov and J. Wynne
+  - Cornering the Two Higgs Doublet Model Type II
+  - JHEP 04 (2022) 172, https://arxiv.org/abs/2107.05650, arXiv:2107.05650 [hep-ph]
 
 ### Talks + Seminars Given
 
@@ -35,6 +71,9 @@
 - [06/2022] Quirks in Quark Flavour Physics, Zadar, Croatia "B meson decay constants from Lattice QCD"
   -> We present the status of ongoing work to extract pseudoscalar and vector decay constants for B(\*), B_s(\*) and B_c(\*) mesons and determine phenomenologically interesting ratios such as fB_s/fB or fB\*/fB. Our results extrapolated to physical quark masses and the continuum are compared to predictions by other lattice collaborations and QCD sum rules, and are used to test heavy quark symmetry relations.
   -> https://indico.ph.tum.de/event/6994/contributions/5251/
+
+- [07/2022] Physics of the Third Generation (Siegen Seminar Series) "Top Quark FCNCs in the 2HDM"
+  -> https://github.com/mbr-phys/Talks/tree/master/THDMtop_Siegen0622
 
 - [06/2022] Young Scientists Meeting of the CRC TRR 257 "Non-Perturbative Calculations for B-mesons"
   -> We present the current status of work to determine non-perturbative contributions to the physics of B-mesons. Using the methods of lattice QCD, QCD sum rules, and the gradient flow, we consider quantities such as decay constants, dimension-6 and -7 matrix elements for lifetimes, and dimension-7 matrix elements for mixing.
@@ -77,4 +116,12 @@
 - Teaching Assistance
   -> Throughout my Masters and PhD, I have taken up teaching assistant duties for various courses. These include 'Scientific Programming' and 'Practical Lab: Intro to Lattice QCD', as well as advising a Bachelors student in their thesis. I have lent my knowledge of particle physics and programming in languages such as C++ and Python to good use in order to educate students and advance their own academic careers.
 
+### Awards
+
+- [2019] President's Vote of Thanks + Full Colours, St Mary's College, Durham University
+- [2018] BIIAB Level 2 Award for Personal License Holders
+- [2017] RLSS National Pool Lifeguard Qualification
+- [2016] British Red Cross Emergency First Aid and ITC Outdoor First Aid
+- [2015,16] National Finalist and Company President, UK Space Design Competition
+- [2014,15] CREST Bronze + Silver Science Awards
 
