@@ -1,4 +1,4 @@
-%!TEX TS-program = xelatex
+%!TEX program = xelatex
 %!TEX encoding = UTF-8 Unicode
 % Awesome CV LaTeX Template for Cover Letter
 %
@@ -22,9 +22,9 @@
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
-\newcommand\research{Institute for Theoretical Particle Physics }
-\newcommand\country{Germany }
-\newcommand\uni{RWTH Aachen University }
+\newcommand\research{Particle Physics Group}
+\newcommand\country{Seattle, Washington, USA}
+\newcommand\uni{University of Washington}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -33,6 +33,7 @@
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-red}
+\def\red{\color{awesome}}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -56,28 +57,21 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 %\photo[circle,noedge,left]{profile}
-\name{Matthew}{Rossetter}
+\name{Matthew}{Black}
 %\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{Easter Banknock, Denny, FK6 5NA, United Kingdom}
+\address{K\"olner Str. 17, 57072 Siegen, Germany}
 
-\mobile{(+44) 7446 949025}
+\mobile{(+49) 173 917 3782}
 \github{mbr-phys}
-\email{mbr-phys@protonmail.com}
-%\homepage{www.posquit0.com}
-%\linkedin{posquit0}
+\email{matthewkblack@protonmail.com}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
 % \reddit{reddit-id}
 % \medium{madium-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
-
-%\quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
@@ -86,7 +80,7 @@
 % The company being applied to
 \recipient
   {\research}
-  {\uni, \country}
+  {\uni \\ \country}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
@@ -110,31 +104,61 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Matthew Rossetter~~~·~~~Statement of Research Interests}
+  {Matthew Black~~~·~~~Research Statement}
   {}
 
 % Print the title with above letter informations
-\makelettertitle
+%\makelettertitle
 
 %-------------------------------------------------------------------------------
 %	LETTER CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\vspace{-30pt}
-\lettersection{Statement of Research Interests}
-My preference for research topics as stated on the RTG website is: 
-\begin{enumerate}
-    \item `Model independent search for new physics in final states including bottom quarks'
-    \item `The search for New Physics with Standard Model measurements'
-    \item `Global fits and blind spots in searches for supersymmetry at the LHC'
-\end{enumerate}
-My preference for supervisor is:
-\begin{itemize}
-    \item Professor Harlander
-    \item Professor Kr\"{a}mer
-    \item Professor Czakon
-\end{itemize}
+\lettersection{Research Statement}
+%\begin{itemize}
+%    \item Masters project
+%    \item 2HDM -> BSM, phenomenology, collider, Bsee
+%    \item Lattice QCD -> Heavy quarks
+%    \item Decay constants
+%    \item RHQ, code implementation (also fermion flow)
+%    \item GF renormalisation
+%    \item Mixing, lifetimes on lattice + sum rules
+%    \item $B_s\to D_s^*$
+%    \item Quantum computing
+%\end{itemize}
+My research interests primarily lie around lattice QCD simulations in the context particle physics phenomenology, with a focus on heavy quark physics.
+Further interests are in QCD sum rules, BSM phenomenology, and quantum computing.
+
+My academic research began during my Master's project, where I delved into the Two Higgs Doublet model, and this work naturally extended into the start my PhD, where the outcome of this line of research has resulted in three publications directly related to the 2HDM. 
+Additionally, this work inspired further research into BSM phenomenology which lead to a fourth publication, exploring methods to enhance the $B_s\to e^+e^-$ decay to an observable level; this research invoked dialogue with experimental colleagues and further motivated LHCb researchers to look for this process.
+My early involvement in BSM physics has significantly shaped the foundation of my research career, furnishing me with vital skills which I apply in my ongoing work. 
+It has also imparted me with a profound understanding of phenomenology at the LHC and other colliders, a knowledge base I consider essential to maintain relevance in all my subsequent research endeavours.
+
+My PhD commenced in March 2021, focusing on lattice QCD for heavy quark flavor physics under the mentorship of Dr. Oliver Witzel. 
+Initial research focused on the calculation of pseudoscalar and vector $B^{(*)}$, $B_s^{(*)}$, and $B_c^{(*)}$ meson decay constants as part of the RHQ project of the RBC/UKQCD collaboration. 
+I also played a pivotal role in implementing the RHQ operators for $O(a)$ improvement in general leptonic and semileptonic decays within the C++ codebase {\tt Hadrons}. 
+This also involved working with and advising a Bachelor's student, whose thesis work was involved with this code implementation.
+
+This early research into heavy quark dynamics on the lattice using relativistic heavy quarks has continued throughout my PhD with interest in studying new decays on the lattice and the calculation of form factors for both pseudoscalar-to-pseudoscalar and pseudoscalar-to-vector transitions.
+
+One of the primary research objectives of my PhD has been the development of techniques aimed at calculating the four-quark dimension-six $\Delta B=0$ matrix elements for B-meson lifetimes within lattice QCD. 
+A key challenge for these matrix elements is the issue of operator mixing in standard renormalization procedures. 
+To address this, I have been working on a novel non-perturbative renormalisation scheme, leveraging the gradient flow and the ``short flow time expansion" in which operator mixing is absent; the preliminary work testing this method focuses on $\Delta F=2$ four-quark matrix elements governing neutral meson mixing such that we can compare to literature, where we first start at the charm quark scale before any additional extrapolations towards the bottom quark.
+With this innovative approach, we aim to provide full lattice QCD predictions of these vital matrix elements for the first time, working towards more accurate and precise predictions for the lifetimes of $B$ mesons.
+
+In parallel to my lattice research, I have also engaged in exploring alternative non-perturbative methodologies, namely QCD sum rules, for the computation of $\Delta B=0$ lifetime and $\Delta B=2$ mixing matrix elements similarly to my lattice studies, however here for BSM operators.
+The QCD sum rules approach is quite different to lattice simulations, technically involving three-loop integrals, and this interdisciplinary approach has broadened my research horizon and enabled me to acquire a comprehensive understanding of diverse computational techniques in non-perturbative calculations.
+
+Outside of my core research, I have been a driving force in a quantum computing initiative within the Siegen physics community, bringing together the theoretical particle physics group with experimental quantum computing to learn the prospects of using quantum computing for particle physics. 
+While my experience in this field is still limited, I have actively pushed to learn more, as evidenced for example by my participation in the MIAPbP program ``Quantum Computing Methods for High Energy Physics".
+
+Additionally, I have assumed significant responsibilities within the Sys Admin team of the TP1 group at Siegen, overseeing the management and maintenance of the computer systems. 
+This multifaceted role involves not only the technical aspects of maintaining Linux systems but also encompasses the crucial responsibility of educating and assisting group members in navigating the intricacies of these systems and introducing new services to facilitate research endeavors.
+
+\pagebreak
+In conclusion, I am eager to apply my extensive expertise and interdisciplinary knowledge to contribute to cutting-edge and innovative research in lattice QCD simulations and heavy quark physics, while also exploring novel computational methodologies. 
+I am committed to leveraging my diverse skill set and comprehensive understanding to make significant contributions to the academic community and push the boundaries of our understanding of particle physics phenomenology.
 
 \end{cvletter}
 
