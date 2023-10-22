@@ -1,0 +1,11 @@
+# Ignore pycache
+__pycache__/
+
+# Ignore latex build files
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
