@@ -123,8 +123,9 @@ SmallCapsFont=*-SC.ttf
 
 % Command for entering a new work position
 \newcommand{\workposition}[5]{
-	{\raggedleft\textsc{#1\expandafter\ifstrequal\expandafter{#2}{}{}{\hspace{6pt}\footnotesize{(#2)}}}\par} % Duration and conditional full time/part time text
-	\expandafter\ifstrequal\expandafter{#3}{}{}{{\raggedright\large #3}\\} % Employer
+	 % Duration and conditional full time/part time text
+	\expandafter\ifstrequal\expandafter{#3}{}{}{{\raggedright\large #3}} % Employer
+    {\hfill{#1\expandafter\ifstrequal\expandafter{#2}{}{}{\hspace{6pt}\footnotesize{(#2)}}}\\}
 	\expandafter\ifstrequal\expandafter{#4}{}{}{{\raggedright\large\textit{\textbf{#4}}}\\[4pt]} % Job title
 	\expandafter\ifstrequal\expandafter{#5}{}{}{#5\\} % Description
 }
