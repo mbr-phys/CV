@@ -141,7 +141,7 @@ My PhD commenced in March 2021, focusing on lattice QCD for heavy quark flavour 
 $B$ physics on the lattice represents an interesting challenge due to the heavy mass of the $b$ quark.
 In order to keep discretisation effects under control for fully dynamical quarks, the mass must obey $am_q<1$ and practically this limit can be even stricter. 
 While some newer lattices are beginning to reach the scale needed ($a^{-1}\gtrsim4\,$GeV), most lattices in production are not yet fine enough to treat the $b$ quarks similarly to lighter quarks. 
-To circumvent this problem on current lattices, there are two main methods, both of which I have dealt with in my research: the effective action, namely the Relativistic Heavy Quark (RHQ) action, or the fully relativistic approach where one simulates near the charm quark mass with e.g. domain wall quarks and extrapolates towards $m_b$.
+To circumvent this problem on current lattices, there are two main methods, both of which I have dealt with in my research: the effective action, namely the Relativistic Heavy Quark (RHQ, based on the Fermilab) action, or the fully relativistic approach where one simulates heavier than the charm quark mass with e.g. domain wall quarks and extrapolates towards $m_b$.
 
 Initial research focused on the calculation of pseudoscalar and vector $B^{(*)}$, $B_s^{(*)}$, and $B_c^{(*)}$ meson decay constants as part of the RHQ project of the RBC/UKQCD collaboration. 
 I also played a pivotal role in implementing the RHQ operators for $O(a)$ improvement in general leptonic and semileptonic decays within the C++ codebase {\tt Hadrons} utilising the {\tt Grid} lattice QCD software package. 
@@ -158,9 +158,10 @@ The gradient flow has become an important tool in lattice simulations for e.g. s
 The ``short flow time expansion" is the key step in matching gradient flow renormalised matrix elements to the $\overline{\rm MS}$ scheme to deliver phenomenologically-relevant results. 
 For this final step, I work in collaboration with Prof.~Dr.~Robert Harlander and his group who focus on calculating the matching to $\overline{\rm MS}$ in high-order perturbation theory.
 These perturbative coefficients can be combined with the non-perturbative result where, using both the non-perturbative and perturbative expertise of our collaboration, the final step is to understand the zero-flow-time extrapolation and deliver a final $\overline{\rm MS}$-scheme result.\\
-The preliminary work testing this method focuses on $\Delta F=2$ four-quark matrix elements governing neutral meson mixing such that we can compare to literature, where we first start at the charm quark scale before any additional extrapolations towards the bottom quark are to be considered using an all-domain-wall approach.
-With this innovative approach, we aim to provide full lattice QCD predictions of these vital matrix elements for the first time, working towards more accurate and precise predictions for the lifetimes of $B$ mesons.
-The highly-promising first results for this project were presented at Lattice 2023.\\
+The preliminary work testing this method considers $\Delta F=2$ four-quark matrix elements governing neutral meson mixing such that we can compare to literature.
+We first start at the charm quark scale before any additional extrapolations towards the bottom quark are to be considered using an all-domain-wall approach.
+The highly-promising first results for this project were presented at Lattice 2023.
+With this innovative approach, we aim to provide full lattice QCD predictions of the vital $\Delta B=0$ four-quark matrix elements for the first time, working towards more accurate and precise predictions for the lifetimes of $B$ mesons.\\
 Using knowledge gained from my work in the RHQ project, a first milestone for this research was also implementing the necessary code for the gradient flow in {\tt Hadrons}.
 To perform the early simulations of this project, I made use of computation time on the large-scale High Performance Computing clusters {\tt HAWK} and {\tt LUMI-G}, where I have been in charge of compiling code, benchmarking, and running the simulations as well as the subsequent analysis. 
 In particular on {\tt LUMI-G}, the use of GPU nodes made optimal compilation and benchmarking crucial before performing measurements.
@@ -172,11 +173,8 @@ The QCD sum rules approach is quite different to lattice simulations, technicall
 Outside of my core research, I have been a driving force in a quantum computing initiative within the Siegen physics community, bringing together the theoretical particle physics group with experimental quantum computing to learn the prospects of using quantum computing for particle physics. 
 While our research experience in this field is still limited, I have actively pushed to learn more, as evidenced for example by my participation in the MIAPbP program ``Quantum Computing Methods for High Energy Physics".
 
-%Additionally, I have assumed significant responsibilities within the Sys Admin team of the TP1 group at Siegen, overseeing the management and maintenance of the computer systems. 
-%This multifaceted role involves not only the technical aspects of maintaining Linux systems but also encompasses the crucial responsibility of educating and assisting group members in navigating the intricacies of these systems and introducing new services to facilitate research endeavours.
-
 In conclusion, I am eager to apply my extensive expertise and interdisciplinary knowledge to contribute to cutting-edge and innovative research in lattice QCD simulations and heavy quark physics, while also exploring novel computational methodologies. 
-My research experience so far has covered all aspects of lattice QCD, such as code implementation, simulation running, and data analysis, and as such I am strongly suited to continue researching within this field with the flexibility and aptitude to perform in the many roles that can be required.
+My research experience so far has covered several different aspects of lattice QCD, such as code implementation, simulation running, and data analysis, and as such I am strongly suited to continue researching within this field with the flexibility and aptitude to perform in the many roles that can be required.
 I am committed to leveraging my diverse skill set and comprehensive understanding to make significant contributions to the academic community and push the boundaries of our understanding of particle physics phenomenology.
 
 \end{cvletter}
