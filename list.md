@@ -15,6 +15,9 @@
 
 ### Jobs
 
+- [10/2024-] Postdoctoral research assistant at University of Edinburgh
+  -> **add some description**
+
 - [03/2021-] Doctoral Reseacher at University of Siegen
   -> I am currently working as a PhD student in the TP1 research group for particle physics at Universit\"{a}t Siegen, focusing on lattice simulations of QCD. This role involves participating in research projects requiring strong dedication and focus. I work with others both within the TP1 group and internationally to complete research, and also as part of larger collaborations focused on delivering high precision lattice results. Further research interests include new physics models and quantum computation for high energy physics.
 
@@ -51,6 +54,10 @@
   - JHEP 04 (2022) 172, https://arxiv.org/abs/2107.05650, arXiv:2107.05650 [hep-ph]
 
 ### Talks + Seminars Given
+
+- [02/2024] MIT Virtual Lattice Field Theory Colloquium Series "Using Gradient Flow to Renormalise Matrix Elements for Meson Mixing and Lifetimes"
+  -> Neutral meson mixing and meson lifetimes are theory-side parametrised in terms four-quark operators which can be determined by calculating weak decay matrix elements using lattice QCD. While calculations of meson mixing matrix elements are standard, determinations of lifetimes typically suffer from complications in renormalisation procedures because dimension-6 four-quark operators can mix with operators of lower mass dimension and, moreover, quark-line disconnected diagrams contribute. We present work detailing the idea to use fermionic gradient flow to non-perturbatively renormalise matrix elements describing meson mixing or lifetimes, which later is to be combined with a perturbative calculation to match to the $\overline{\rm MS}$ scheme.
+  -> http://ctp.lns.mit.edu/latticecolloq/
 
 - [10/2023] Young Scientists Meeting of the CRC TRR 257 "Using Gradient Flow to Renormalise Matrix Elements for Meson Mixing and Lifetimes"
   -> Neutral meson mixing and meson lifetimes are theory-side parametrised in terms four-quark operators which can be determined by calculating weak decay matrix elements using lattice QCD. While calculations of meson mixing matrix elements are standard, determinations of lifetimes typically suffer from complications in renormalisation procedures because dimension-6 four-quark operators can mix with operators of lower mass dimension and, moreover, quark-line disconnected diagrams contribute. We present work detailing the idea to use fermionic gradient flow to non-perturbatively renormalise matrix elements describing meson mixing or lifetimes, which later is to be combined with a perturbative calculation to match to the $\overline{\rm MS}$ scheme.
