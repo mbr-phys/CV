@@ -34,9 +34,18 @@
 
 - https://inspirehep.net/authors/1886894?ui-citation-summary=true iNSPIRE-HEP/Matthew Black
 
+-> A. Boushmelev, M. Black, O. Witzel
+  - Form factors for semi-leptonic $B_{(s)}\to D_{(s)}^* \ell\nu_\ell$ decays
+  - PoS LATTICE2024 251, https://arxiv.org/abs/2412.17406, arXiv:2412.17406[hep-lat]
+-> M. Black, M. Lang, A. Lenz, Z. W\"uthrich
+  - HQET sum rules for matrix elements of dimension-six four-quark operators for meson lifetimes within and beyond the Standard Model
+  - JHEP XX (2025) XXX, https://arxiv.org/abs/2412.13270, arXiv:2412.13270[hep-ph]
+-> M. Black, R. Harlander, F. Lange, A. Rago, A. Shindler and O. Witzel 
+  - Gradient Flow Renormalisation for Meson Mixing and Lifetimes
+  - PoS LATTICE2024 243, https://arxiv.org/abs/2409.18891 arXiv:2409.18891[hep-lat]
 -> M. Black, R. Harlander, F. Lange, A. Rago, A. Shindler and O. Witzel 
   - Using Gradient Flow to Renormalise Matrix Elements for Meson Mixing and Lifetimes
-  - PoS LATTICE2023 263, https://arxiv.org/abs/2310.XXXX, arXiv:2310.XXXX [hep-lat]
+  - PoS LATTICE2023 263, https://arxiv.org/abs/2310.18059 arXiv:2310.18059[hep-lat]
 -> M. Black, O. Witzel 
   - $B$ Meson Decay Constants Using Relativistic Heavy Quarks
   - PoS LATTICE2022 405, https://arxiv.org/abs/2212.10125, arXiv:2212.10125 [hep-lat]
@@ -54,6 +63,23 @@
   - JHEP 04 (2022) 172, https://arxiv.org/abs/2107.05650, arXiv:2107.05650 [hep-ph]
 
 ### Talks + Seminars Given
+
+- [02/2025] Z\"urich Gradient Flow Workshop "Gradient Flow Renormalisation for Meson Mixing and Lifetimes"
+  -> Fermionic gradient flow in combination with the short flow time expansion provides a renormalisation scheme where hadronic matrix elements on the lattice are evolved along the flow time gradually removing UV divergences. In this renormalisation scheme certain challenges such as mixing with operators of lower mass dimension are suppressed or shifted to the perturbative part of the procedure, matching e.g. to the $\overline{\rm MS}$ scheme.
+    We demonstrate our gradient flow renormalisation procedure determining matrix elements of four-quark operators describing neutral meson mixing or meson lifetimes. While meson mixing calculations are well-established on the lattice and serve to validate our procedure, a lattice calculation of matrix elements for heavy meson lifetimes is still outstanding. Preliminary results for mesons formed of a charm and strange quark are presented and prospects towards determinations for $B$ mesons are given.
+  -> https://indico.psi.ch/event/16749/contributions/55137/
+
+- [08/2024] The 41st International Symposium on Lattice Field Theory (Lattice 2024) "Gradient Flow Renormalisation for Meson Mixing and Lifetimes"
+  -> Fermionic gradient flow in combination with the short flow time expansion provides a renormalisation scheme where hadronic matrix elements on the lattice are evolved along the flow time gradually removing UV divergences. In this renormalisation scheme certain challenges such as mixing with operators of lower mass dimension are suppressed or shifted to the perturbative part of the procedure, matching e.g. to the $\overline{\rm MS}$ scheme.
+    We demonstrate our gradient flow renormalisation procedure determining matrix elements of four-quark operators describing neutral meson mixing or meson lifetimes. While meson mixing calculations are well-established on the lattice and serve to validate our procedure, a lattice calculation of matrix elements for heavy meson lifetimes is still outstanding. Preliminary results for mesons formed of a charm and strange quark are presented and prospects towards determinations for $B$ mesons are given.
+  -> https://conference.ippp.dur.ac.uk/event/1265/contributions/7397/
+
+- [06/2024] Quirks in Quark Flavour Physics "Gradient Flow Renormalisation for Meson Mixing and Lifetimes"
+  -> Neutral meson mixing and meson lifetimes are theory-side parametrised in terms four-quark operators which can be determined by calculating weak decay matrix elements using lattice QCD. While calculations of meson mixing matrix elements are standard, determinations of lifetimes typically suffer from complications in renormalisation procedures because dimension-6 four-quark operators can mix with operators of lower mass dimension and, moreover, quark-line disconnected diagrams contribute. 
+    We outline the idea to use fermionic gradient flow to first non-perturbatively renormalise matrix elements describing meson mixing or lifetimes and subsequently combining these results with a perturbative calculation to match to the $\overline{\rm MS}$ scheme.
+    Early results at the $D_s$ mass scale will be shown and compared to literature for both $D_s$ lifetimes and short distance effects in neutral D mixing.
+    Future prospects towards the $B$ scale will also be discussed.
+  -> https://indico.physik.uni-siegen.de/event/137/contributions/340/
 
 - [02/2024] MIT Virtual Lattice Field Theory Colloquium Series "Using Gradient Flow to Renormalise Matrix Elements for Meson Mixing and Lifetimes"
   -> Neutral meson mixing and meson lifetimes are theory-side parametrised in terms four-quark operators which can be determined by calculating weak decay matrix elements using lattice QCD. While calculations of meson mixing matrix elements are standard, determinations of lifetimes typically suffer from complications in renormalisation procedures because dimension-6 four-quark operators can mix with operators of lower mass dimension and, moreover, quark-line disconnected diagrams contribute. We present work detailing the idea to use fermionic gradient flow to non-perturbatively renormalise matrix elements describing meson mixing or lifetimes, which later is to be combined with a perturbative calculation to match to the $\overline{\rm MS}$ scheme.
@@ -100,20 +126,26 @@
 
 ### Events Attended
 
-- [10/2022] LHCb Implications Workshop 2023
-- [10/2023] Young Scientists Meeting of the CRC TRR 257 
-- [08/2023] The 40th International Symposium on Lattice Field Theory (Lattice 2023) 
-- [04/2023] MIAPbP program on Quantum Computing Methods for High Energy Physics
-- [03/2023] ECT\* Workshop on The Gradient Flow in QCD and other Strongly Coupled Field Theories 
-- [10/2022] LHCb Implications Workshop 2022
-- [09/2022] DIRAC Practical Introduction to Quantum Computing
-- [08/2022] The 39th International Symposium on Lattice Field Theory (Lattice 2022) 
-- [06/2022] Quirks in Quark Flavour Physics, Zadar, Croatia 
-- [06/2022] Young Scientists Meeting of the CRC TRR 257 
-- [03/2022] DPG Fr\"uhjarhstagung Heidelberg 2022 
-- [10/2021] LHCb Implications Workshop 2021
-- [08/2021] The 38th International Symposium on Lattice Field Theory (Lattice 2022) 
-- [05/2021] Annual Meeting of the CRC TRR 257 
+- [04/2025] DiRAC AMD MI300A Hackathon, London, UK
+- [02/2025] Gradient Flow Workshop, Z\"urich, Switzerland
+- [12/2024] DiRAC Day 2024, Cardiff, UK
+- [08/2024] The 41st International Symposium on Lattice Field Theory (Lattice 2024), Liverpool, UK
+- [07/2024] Lattice@CERN 2024
+- [06/2024] Quirks in Quark Flavour Physics 2024, Zadar, Croatia
+- [10/2023] LHCb Implications Workshop 2023 (virtual)
+- [10/2023] Young Scientists Meeting of the CRC TRR 257, Siegen, Germany
+- [08/2023] The 40th International Symposium on Lattice Field Theory (Lattice 2023), Fermilab, USA
+- [04/2023] MIAPbP program on Quantum Computing Methods for High Energy Physics, Munich, Germany
+- [03/2023] ECT\* Workshop on The Gradient Flow in QCD and other Strongly Coupled Field Theories, Trento, Italy
+- [10/2022] LHCb Implications Workshop 2022 (virtual)
+- [09/2022] DIRAC Practical Introduction to Quantum Computing, London, UK
+- [08/2022] The 39th International Symposium on Lattice Field Theory (Lattice 2022), Bonn, Germany
+- [06/2022] Quirks in Quark Flavour Physics 2022, Zadar, Croatia
+- [06/2022] Young Scientists Meeting of the CRC TRR 257, Karlsruhe, Germany
+- [03/2022] DPG Fr\"uhjarhstagung Heidelberg 2022 (virtual)
+- [10/2021] LHCb Implications Workshop 2021 (virtual)
+- [08/2021] The 38th International Symposium on Lattice Field Theory (Lattice 2022) (virtual)
+- [05/2021] Annual Meeting of the CRC TRR 257 (virtual)
 
 ### Further Experiences
 
